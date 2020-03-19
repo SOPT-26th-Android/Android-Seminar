@@ -29,8 +29,14 @@ SOPT 안드로이드 세미나 자료입니다!
 
 
 ## 2주차
-### RecyclerView의 사용
+### BottomNavigation, ViewPager, RecyclerView의 사용
 
+##### BottomNavigation, ViewPager
+- Adapter
+- Fragment
+- selector
+
+##### RecyclerView
 - ViewHolder
 - Adapter
 - LayoutManager
