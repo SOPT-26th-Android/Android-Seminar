@@ -31,6 +31,14 @@ SOPT 안드로이드 세미나 자료입니다!
 ## 2주차
 ### BottomNavigation, ViewPager, RecyclerView의 사용
 
+
+<center>
+    <div>
+        <img src="https://user-images.githubusercontent.com/54485132/77044896-94ac7e00-6a03-11ea-9904-c5d3268e6adb.gif" width="30%">
+    </div>
+</center>
+
+
 ##### BottomNavigation, ViewPager
 - Adapter
 - Fragment
