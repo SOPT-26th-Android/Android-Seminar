@@ -1,4 +1,4 @@
-package com.example.secondseminar
+package com.example.secondseminar.recycler
 
 data class InstaData(
     val name: String,

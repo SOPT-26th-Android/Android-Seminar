@@ -1,9 +1,10 @@
-package com.example.secondseminar
+package com.example.secondseminar.recycler
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.secondseminar.R
 
 class InstaAdapter(private val context: Context) : RecyclerView.Adapter<InstaViewHolder>() {
     var data = mutableListOf<InstaData>()

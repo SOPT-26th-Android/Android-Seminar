@@ -1,4 +1,4 @@
-package com.example.secondseminar
+package com.example.secondseminar.recycler
 
 import android.graphics.Rect
 import android.view.View
