@@ -50,6 +50,7 @@ SOPT 안드로이드 세미나 자료입니다!
 - LayoutManager
 - Datas
 
+[소스파일](https://github.com/SOPT-26th-Android/Android-Seminar/tree/master/SecondSeminar)
 
 [목차로 돌아가기](#index)
 
