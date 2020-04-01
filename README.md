@@ -4,7 +4,7 @@ SOPT 안드로이드 세미나 자료입니다!
 # index
 **커리큘럼**
 - [1. 다양한 레이아웃의 활용](#1주차)
-- [2. RecyclerView의 사용](#2주차)
+- [2. BottomNavigation, ViewPager, RecyclerView의 사용](#2주차)
 - [3. Retrofit2를 활용한 http 통신](#3주차)
 
 
@@ -29,13 +29,28 @@ SOPT 안드로이드 세미나 자료입니다!
 
 
 ## 2주차
-### RecyclerView의 사용
+### BottomNavigation, ViewPager, RecyclerView의 사용
 
+
+<center>
+    <div>
+        <img src="https://user-images.githubusercontent.com/54485132/77044896-94ac7e00-6a03-11ea-9904-c5d3268e6adb.gif" width="30%">
+    </div>
+</center>
+
+
+##### BottomNavigation, ViewPager
+- Adapter
+- Fragment
+- selector
+
+##### RecyclerView
 - ViewHolder
 - Adapter
 - LayoutManager
 - Datas
 
+[소스파일](https://github.com/SOPT-26th-Android/Android-Seminar/tree/master/SecondSeminar)
 
 [목차로 돌아가기](#index)
 
