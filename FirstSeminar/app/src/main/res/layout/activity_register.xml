@@ -1,78 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
     tools:context=".RegisterActivity">
-
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:layout_marginHorizontal="64dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/sopt_logo" />
-
+        android:src="@drawable/sopt_logo"/>
     <EditText
         android:id="@+id/et_id"
+        android:layout_marginTop="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="24dp"
-        android:layout_marginTop="32dp"
-        android:ems="10"
-        android:inputType="text"
         android:hint="아이디"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
+        android:inputType="text"/>
     <EditText
         android:id="@+id/et_password"
+        android:layout_marginTop="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="24dp"
-        android:layout_marginTop="16dp"
-        android:inputType="textPassword"
         android:hint="비밀번호"
-        app:layout_constraintEnd_toEndOf="@+id/et_id"
-        app:layout_constraintStart_toStartOf="@+id/et_id"
-        app:layout_constraintTop_toBottomOf="@+id/et_id" />
-
+        android:inputType="textPassword"/>
     <EditText
         android:id="@+id/et_confirm_password"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="24dp"
         android:layout_marginTop="16dp"
-        android:inputType="textPassword"
+        android:layout_height="wrap_content"
         android:hint="비밀번호 확인"
-        app:layout_constraintEnd_toEndOf="@+id/et_password"
-        app:layout_constraintStart_toStartOf="@+id/et_password"
-        app:layout_constraintTop_toBottomOf="@+id/et_password" />
-
+        android:inputType="textPassword"/>
     <EditText
         android:id="@+id/et_gitNick"
+        android:layout_marginTop="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="24dp"
-        android:layout_marginTop="16dp"
-        android:inputType="textPersonName"
-        android:hint="Github 닉네임"
-        app:layout_constraintEnd_toEndOf="@+id/et_confirm_password"
-        app:layout_constraintStart_toStartOf="@+id/et_confirm_password"
-        app:layout_constraintTop_toBottomOf="@+id/et_confirm_password" />
-
+        android:hint="GitHub 닉네임"
+        android:inputType="text"/>
     <Button
         android:id="@+id/btn_submit"
+        android:layout_marginTop="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="24dp"
-        android:layout_marginTop="32dp"
-        android:text="가입 완료"
-        app:layout_constraintEnd_toEndOf="@+id/et_gitNick"
-        app:layout_constraintTop_toBottomOf="@+id/et_gitNick" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:text="가입 완료"/>
+
+
+</LinearLayout>
