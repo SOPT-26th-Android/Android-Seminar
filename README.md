@@ -16,9 +16,9 @@ SOPT 안드로이드 세미나 자료입니다!
 - LinearLayout
 <center>
     <div>
-        <img src="https://user-images.githubusercontent.com/54485132/76174211-37d1ec00-61e9-11ea-9eb2-82ff69e81dcb.png" width="30%">
-        <img src="https://user-images.githubusercontent.com/54485132/76174215-46b89e80-61e9-11ea-9d5b-567fa2a9ffc2.png" width="30%">
-        <img src="https://user-images.githubusercontent.com/54485132/77043973-ee13ad80-6a01-11ea-843d-ab32f3cf42e4.png" width="30%">
+        <img src="https://user-images.githubusercontent.com/54485132/79524981-ccf3ba80-809c-11ea-9647-faed2756c2fe.png" width="30%">
+        <img src="https://user-images.githubusercontent.com/54485132/79524985-cf561480-809c-11ea-9cfa-2decdb77eed9.png" width="30%">
+        <img src="https://user-images.githubusercontent.com/54485132/79524987-cfeeab00-809c-11ea-8401-a86a70db3fb3.png" width="30%">
     </div>
 </center>
 
