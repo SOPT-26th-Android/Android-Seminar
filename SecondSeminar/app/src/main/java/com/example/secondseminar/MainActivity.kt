@@ -17,16 +17,17 @@ class MainActivity : AppCompatActivity() {
             adapter = MainPagerAdapter(supportFragmentManager)
             offscreenPageLimit = 3
             addOnPageChangeListener(object : ViewPager.OnPageChangeListener {
-                override fun onPageScrollStateChanged(state: Int) = Unit
+                override fun onPageScrollStateChanged(state: Int) = kotlin.Unit
                 override fun onPageScrolled(
                     position: Int,
                     positionOffset: Float,
                     positionOffsetPixels: Int
-                ) = Unit
+                ) = kotlin.Unit
 
                 override fun onPageSelected(position: Int) {
                     main_bottom_navigation.menu.getItem(position).isChecked = true
                 }
+
             })
         }
         main_bottom_navigation.setOnNavigationItemSelectedListener {
