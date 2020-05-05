@@ -3,17 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:id="@+id/menu_home"
         android:icon="@drawable/ic_home_white"
-        android:enabled="true"
-        android:title="Home"
-        app:showAsAction="ifRoom"/>
+        android:title="Home"/>
     <item android:id="@+id/menu_book"
         android:icon="@drawable/ic_book_white"
-        android:enabled="true"
-        android:title="Book"
-        app:showAsAction="ifRoom"/>
+        android:title="Book"/>
     <item android:id="@+id/menu_person"
         android:icon="@drawable/ic_person_white"
-        android:enabled="true"
-        android:title="MyPage"
-        app:showAsAction="ifRoom"/>
+        android:title="MyPage"/>
 </menu>
