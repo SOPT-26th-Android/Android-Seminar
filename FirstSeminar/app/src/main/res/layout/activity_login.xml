@@ -14,7 +14,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/sopt_signin_logo" />
+        android:src="@drawable/sopt_icon" />
 
     <EditText
         android:id="@+id/et_id"
@@ -25,6 +25,9 @@
         android:layout_marginEnd="32dp"
         android:ems="10"
         android:hint="이메일"
+        android:background="@drawable/round_et_gray"
+        android:paddingVertical="12dp"
+        android:paddingLeft="16dp"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,6 +40,9 @@
         android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="비밀번호"
+        android:background="@drawable/round_et_gray"
+        android:paddingVertical="12dp"
+        android:paddingLeft="16dp"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="@+id/et_id"
         app:layout_constraintStart_toStartOf="@+id/et_id"
@@ -48,6 +54,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:text="로그인"
+        android:fontFamily="@font/kopub_fontfamily"
+        android:textFontWeight="400"
         app:layout_constraintEnd_toEndOf="@+id/et_password"
         app:layout_constraintStart_toStartOf="@+id/et_password"
         app:layout_constraintTop_toBottomOf="@+id/et_password" />
